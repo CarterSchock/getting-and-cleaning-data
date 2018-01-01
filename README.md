@@ -13,7 +13,7 @@ The raw data for this project was collected from the [Human Activity Recognition
 
 ## Creating the Dataset <a name="Creating the Dataset"></a>
 
-The r script "run_analysis.r" can be run to re-create "Rull_Tidy.txt." Steps can be seen in the comments in the code itself and in "CodeBook.md."
+The r script "run_analysis.r" can be run to re-create "Full_Tidy.txt." Steps can be seen in the comments in the code itself and in "CodeBook.md."
 
 
 
