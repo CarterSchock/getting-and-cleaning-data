@@ -99,4 +99,4 @@ Full_Tidy <- Full_Tidy%>%
 
 yy <- as.data.frame(table(Full_Tidy$subject, Full_Tidy$Activity))
 
-write.csv(Full_Tidy, "Full_Tidy.csv", row.names = FALSE)
+write.table(Full_Tidy, "Full_Tidy.txt", row.names = FALSE)
