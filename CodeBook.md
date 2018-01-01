@@ -1,6 +1,6 @@
-## CodeBook for Variables in Full_Tidy.csv <a name="CodeBook for Variables in Full_Tidy.csv"></a>
+## CodeBook for Variables in Full_Tidy.txt <a name="CodeBook for Variables in Full_Tidy.txt"></a>
 
-Each observation in "Full_Tidy.csv" is an average of each of the variables described below in "Variables" by subject and activity. 
+Each observation in "Full_Tidy.txt" is an average of each of the variables described below in "Variables" by subject and activity. 
 The raw files containing each individual measurement can be found at "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 
 ## Identifying Variables <a name="Identifying Variables"></a>
@@ -92,7 +92,7 @@ measurement in three dimensions: X, Y and Z.
  ## Data Transformations <a name="Data Transformations"></a>
 
 The following is a summary of the steps taken to transform the raw data located at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20H 
-into Full_Tidy.csv. These steps are executed in the run_analysis.r file :
+into Full_Tidy.txt. These steps are executed in the run_analysis.r file :
 
 - Data was read in from the url and unzipped.
 - Activity and subject labels were renamed to be more descriptive.
